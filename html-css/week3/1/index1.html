@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <title>Web Developing</title>
+    </head>
+    <body>
+        <form action="/signup.php" method="POST" class="form">
+            <h1 class="form__title">
+              Sign up
+            </h1>
+            <!-- firstname -->
+            <div class="form-item">
+              <label for="singup-firstname">
+                Firstname
+              </label>
+              <input
+                type="text"
+                id="singup-firstname"
+                name="firstname"
+                placeholder="Write your firstname"
+              />
+            </div>
+            <!-- lastname -->
+            <div class="form-item">
+              <label for="singup-lastname">
+                lastname
+              </label>
+              <input
+                type="text"
+                id="singup-lastname"
+                name="lastname"
+                placeholder="Write your lastname"
+              />
+            </div>
+            <!-- email -->
+            <div class="form-item">
+              <label for="singup-email">
+                email
+              </label>
+              <input
+                type="email"
+                id="singup-email"
+                name="email"
+                placeholder="Write your email"
+              />
+            </div>
+             <!-- password -->
+            <div class="form-item">
+              <label for="singup-password">
+                password
+              </label>
+              <input
+                type="password"
+                id="singup-password"
+                name="password"
+                placeholder="Write your password"
+              />
+            </div>
+
+            <!-- male / femail-->
+            <div class="form-item">
+                <label>Vælg køn: </label>
+                <label for="singup-male">
+                    kvinde
+                </label>
+                <input
+                  type="radio"
+                  id="singup-male"
+                  name="status"
+                />
+
+                <label for="singup-female">
+                    mand
+                  </label>
+                  <input
+                    type="radio"
+                    id="singup-female"
+                    name="status"
+                  />
+              </div>
+            <!-- submit button -->
+
+            <button type="submit">Signup</button>
+          </form>
+    
+    
+    
+    
+    
+        
+    </body>
+</html>
